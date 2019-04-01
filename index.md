@@ -36,7 +36,7 @@ After everything is connected, let’s glue it into the plastic box.
 
 ![box](images/almost_all.jpg)
 
-The stepper engine is going to roll up the cord in order to open the curtain, but for that we need a spool. Since it’s tricky to buy an actual spool that fits well into the box, I used a random part of a plastic toy that fit everything perfectly. It also happened to have a butterfly imprint, which adds a lot of charm to otherwise harsh image of development boards and jumper cables. I was forced to drill a hole in the middle of the butterfly’s wing though, so the stepper engine can be attached to it.
+The stepper engine is going to roll up the cord in order to open the curtain, but for that we need a spool. Since it’s tricky to buy an actual spool that fits well into the box, I used a random part of a plastic toy that fit everything perfectly. It also happened to have a butterfly imprint, which adds a lot of charm to the otherwise harsh image of development boards and jumper cables. I was forced to drill a hole in the middle of the butterfly’s wing though, so the stepper engine can be attached to it.
 
 ![box](images/spool1.jpg)
 
