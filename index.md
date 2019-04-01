@@ -1,6 +1,6 @@
 ### Intro
 
-As I like being woken up by sunrise and I also close my curtains every night before I go to sleep, I needed a way to have them open automatically. Aside from Raspberry Pi itself, each component is worth around $1.
+As I like being woken up by sunrise and I also close my curtains every night before going to sleep, I needed a way to have them open automatically, without having to get up.
 
 What I needed to achieve my goal was:
 
@@ -16,6 +16,8 @@ What I needed to achieve my goal was:
 * glue
 * a plastic box (I used an electrical junction box from a hardware store)
 
+Aside from Raspberry Pi itself, each component is worth around $1.
+
 ### Hardware
 
 Connecting a stepper engine to Raspberry Pi is trivial with ULN2003. I found a fantastic schema in a tutorial from tutorials-raspberrypi.de:
@@ -24,7 +26,7 @@ Connecting a stepper engine to Raspberry Pi is trivial with ULN2003. I found a f
 
 source: https://tutorials-raspberrypi.de/wp-content/uploads/2014/08/uln2003-Steckplatine.png
 
-Since the ULN2003 board is already soldered together, the only vital part is connecting it to:
+Since the ULN2003 board is already soldered together (as in the picture below), we don't need a bread board and the only vital part is connecting ULN2003 to:
 
 * 5V power supply (red jumper cable)
 * Ground (black jumper cable)
