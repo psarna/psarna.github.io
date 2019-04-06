@@ -121,7 +121,7 @@ Source: https://os.mbed.com/cookbook/4-Phase-Step-Motor
 
 That’s it, feeding the sequence to the engine via GPIO pins makes it spin, and that’s everything we need in order to get the curtain open. Also, if we feed the engine with reversed sequence, it rotates counter-clockwise, which is very handy in order to unroll the cord later. That’s what happens when we pass “rev” as a first argument to our program.
 
-In order to adjust the software to the actual length of my curtains I could have make it accept an argument that changes the number of full rotations it needs to do, but all the previous work was hard enough and I solved this one the easy way - just run it in a loop in your shell several times, works like a charm!
+In order to adjust the software to the actual length of my curtains I could have made it accept an argument that changes the number of full rotations it needs to do, but all the previous work was hard enough and I solved this one the easy way - just run it in a loop in your shell several times, works like a charm!
 
 In order to make sure that the curtains are open in the morning, a simple cron job will suffice. For one time testing, there’s also `at` utility, which is really handy to use:
 $ echo for i in {1..16}; do python stepper.py rev; done | at 7:10 AM
