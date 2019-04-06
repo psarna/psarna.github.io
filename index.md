@@ -26,7 +26,7 @@ Connecting a stepper engine to Raspberry Pi is trivial with ULN2003. I found a f
 
 source: https://tutorials-raspberrypi.de/wp-content/uploads/2014/08/uln2003-Steckplatine.png
 
-Since the ULN2003 board is already soldered together (as in the picture below), we don't need a bread board and the only vital part is connecting ULN2003 to:
+Since the ULN2003 board is already soldered together (as in the picture below), we don't need a breadboard and the only vital part is connecting ULN2003 to:
 
 * 5V power supply (red jumper cable)
 * Ground (black jumper cable)
